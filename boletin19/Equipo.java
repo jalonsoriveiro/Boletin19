@@ -11,4 +11,19 @@ package boletin19;
  */
 public class Equipo {
     
+    public int[][] crearMatriz(int[][]taboa){
+    
+        for(int f=0;f<taboa.length;f++){
+    
+            for(int c=0;c<taboa[f].length;c++){
+            
+                taboa[f][c]= meusmetodos.PedirDato.PedirInt();
+            
+            }        
+        }
+        return  taboa;    
+    } 
+    
+    
+    
 }
