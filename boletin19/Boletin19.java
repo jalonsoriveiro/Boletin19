@@ -15,7 +15,17 @@ public class Boletin19 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[][]matriz = new int[3][4];
+        String[] Equipo={"Celta","Depor","Malaga"};
+        String[] clasificacion={"1X","2X","3X","4X"};
+        
+        
+        Equipo obx = new Equipo();
+        
+        //obx.amosaTabla(obx.crearMatriz(matriz), Equipo, clasificacion);
+        obx.orderMinGoles(obx.crearMatriz(matriz), Equipo, clasificacion);
+        
+        
     }
     
 }
